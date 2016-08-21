@@ -32,10 +32,6 @@ footer {
   margin-top: 5px;
 }
 
-.icon {
-  color: white;
-  cursor: pointer;
-}
 
 .game-container {
   padding-top: 20px;
@@ -71,81 +67,14 @@ p {
   z-index: -1;
 }
 
-.modal {
-  display: none;
-}
-.modal.active {
-  display: block;
-}
-
-.lose-modal {
-  display: none;
-}
-.lose-modal.active {
-  display: block;
-}
-
-.modal-screen {
+.button{
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 999;
-  background: rgba(255, 255, 255, 0.7);
 }
-.modal-content {
-  font-family: 'Fredoka One';
-  position: fixed;
-  z-index: 1000;
-  top: 50%;
-  left: 50%;
-  width: 350px;
-  margin-top: -200px;
-  margin-left: -175px;
-  height: 400px;
-  box-sizing: border-box;
-  background: white;
-  border-radius: 5px;
+
+button {
   font-size: 36px;
 }
 
-#win, #lose {
-  display: block;
-  text-align: center;
-  margin: 5px 0 0 0;
-}
 
-#happy {
-  display: block;
-  width: 300px;
-  margin: auto;
-}
-
-#sad {
-  display: block;
-  height: 300px;
-  margin: auto;
-}
-
-#win-play-again {
-  text-align: center;
-  color: white;
-  background: black;
-}
-
-#win-play-again:hover {
-  background: rgba(0, 0, 0, 0.7);
-  cursor: pointer;
-}
-
-#lose-play-again {
-  text-align: center;
-  color: white;
-  background: black;
-}
-
-#lose-play-again:hover {
-  background: rgba(0, 0, 0, 0.7);
-  cursor: pointer;
-}
